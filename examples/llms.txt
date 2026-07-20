@@ -1,0 +1,17 @@
+# Acme Coffee
+
+> Specialty coffee roaster in Brooklyn, shipping nationwide since 2011.
+
+## Key pages
+
+- [Menu](https://acme.coffee/menu): What we are pouring this week
+- [Wholesale](https://acme.coffee/wholesale): Bulk and cafe accounts
+- [Our roastery](https://acme.coffee/about): How and where we roast
+
+## Optional
+
+- [Press kit](https://acme.coffee/press)
+
+Canonical site: https://acme.coffee
+
+<!-- Generated with llms-txt-kit — https://sempite.com/tools/llms-txt-generator -->

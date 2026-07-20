@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "llms-txt-kit"
+version = "0.1.0"
+description = "Generate and validate llms.txt files — CLI and Python library, zero dependencies."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "SEMPITE", email = "hello@sempite.com" }]
+keywords = ["llms.txt", "llms-txt", "geo", "aeo", "ai-search", "seo", "llm", "generative-engine-optimization"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Text Processing :: Markup :: Markdown",
+]
+
+[project.scripts]
+llms-txt = "llmstxt.cli:main"
+
+[project.urls]
+Homepage = "https://sempite.com/tools/llms-txt-generator"
+Repository = "https://github.com/SEMPITEHQ/llms-txt-kit"
+Specification = "https://llmstxt.org"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/llmstxt"]
